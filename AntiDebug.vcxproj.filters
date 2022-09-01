@@ -45,6 +45,9 @@
     <ClCompile Include="AntiDebug\Timing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AntiVM\DLLCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AntiDebug\AntiDebug.h">
@@ -72,6 +75,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AntiDebug\Timing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiVM\DLLCheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

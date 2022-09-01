@@ -1,3 +1,6 @@
+#include <windows.h>
+#include <vector>
+
 #include "Screen.h"
 
 std::vector<int> CommonHeights = {
