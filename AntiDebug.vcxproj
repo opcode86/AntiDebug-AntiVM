@@ -137,6 +137,7 @@
   <ItemGroup>
     <ClCompile Include="AntiDebug\AntiDebug.cpp" />
     <ClCompile Include="AntiDebug\Timing.cpp" />
+    <ClCompile Include="AntiVM\DLLCheck.cpp" />
     <ClCompile Include="AntiVM\Drivers.cpp" />
     <ClCompile Include="AntiDebug\InvalidHandle.cpp" />
     <ClCompile Include="AntiDebug\PEB.cpp" />
@@ -149,6 +150,7 @@
   <ItemGroup>
     <ClInclude Include="AntiDebug\AntiDebug.h" />
     <ClInclude Include="AntiDebug\Timing.h" />
+    <ClInclude Include="AntiVM\DLLCheck.h" />
     <ClInclude Include="AntiVM\Drivers.h" />
     <ClInclude Include="AntiDebug\InvalidHandle.h" />
     <ClInclude Include="AntiDebug\PEB.h" />

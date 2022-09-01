@@ -16,5 +16,6 @@ void AntiVM() noexcept
 	if (ProviderCheck(lpnr))
 		printf("[VM] Caught by illegal provider!\n");
 
-
+	if (CheckDlls())
+		printf("[VM] Caught by illegal DLL's!\n");
 }

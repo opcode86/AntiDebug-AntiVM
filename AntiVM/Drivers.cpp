@@ -1,3 +1,8 @@
+#include <windows.h>
+#include <psapi.h>
+#include <vector>
+#include <string>
+
 #include "Drivers.h"
 
 std::vector<std::string> IllegalDrivers = {
