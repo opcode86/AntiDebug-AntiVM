@@ -113,7 +113,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -131,12 +131,13 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AntiDebug\AntiDebug.cpp" />
     <ClCompile Include="AntiDebug\Timing.cpp" />
+    <ClCompile Include="AntiVM\Devices.cpp" />
     <ClCompile Include="AntiVM\DLLCheck.cpp" />
     <ClCompile Include="AntiVM\Drivers.cpp" />
     <ClCompile Include="AntiDebug\InvalidHandle.cpp" />
@@ -150,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="AntiDebug\AntiDebug.h" />
     <ClInclude Include="AntiDebug\Timing.h" />
+    <ClInclude Include="AntiVM\Devices.h" />
     <ClInclude Include="AntiVM\DLLCheck.h" />
     <ClInclude Include="AntiVM\Drivers.h" />
     <ClInclude Include="AntiDebug\InvalidHandle.h" />

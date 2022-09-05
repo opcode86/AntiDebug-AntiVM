@@ -1,4 +1,5 @@
 #pragma once
+#include "Devices.h"
 #include "DLLCheck.h"
 #include "Drivers.h"
 #include "Provider.h"

@@ -7,6 +7,9 @@ void AntiVM() noexcept
 
 	printf("|-----------ANTI VM----------|\n\n");
 
+	if (CheckDevices())
+		printf("[VM] Caught by illegal Device Vendor IDs!\n");
+
 	if (DriverCheck())
 		printf("[VM] Caught by illegal drivers!\n");
 
