@@ -136,6 +136,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AntiDebug\AntiDebug.cpp" />
+    <ClCompile Include="AntiVM\TimeCheck.cpp" />
     <ClCompile Include="AntiDebug\Timing.cpp" />
     <ClCompile Include="AntiVM\Devices.cpp" />
     <ClCompile Include="AntiVM\DLLCheck.cpp" />
@@ -150,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AntiDebug\AntiDebug.h" />
+    <ClInclude Include="AntiVM\TimeCheck.h" />
     <ClInclude Include="AntiDebug\Timing.h" />
     <ClInclude Include="AntiVM\Devices.h" />
     <ClInclude Include="AntiVM\DLLCheck.h" />
