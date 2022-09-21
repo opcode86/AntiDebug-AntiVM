@@ -1,5 +1,6 @@
 #include <Windows.h>
 #include <winternl.h>
+#include <iostream>
 
 #include "Timing.h"
 

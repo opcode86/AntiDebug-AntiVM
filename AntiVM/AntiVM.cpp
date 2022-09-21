@@ -22,11 +22,18 @@ void AntiVM() noexcept
 	if (CheckDlls())
 		printf("[VM] Caught by illegal DLL's!\n");
 
-	//NOTE:
-	//This CAN be an indicator of a virtual environment since
-	//the person setting up the VM might not care to configure
-	//touch input. Some users might have this off by choice though
-	//so one should not rely very heavily on this detection method.
+	// NOTE:
+	// This CAN be an indicator of a virtual environment since
+	// the person setting up the VM might not care to configure
+	// touch input. Some users might have this off by choice though
+	// so one should not rely very heavily on this detection method.
 	if (GetSystemMetrics(SM_MAXIMUMTOUCHES) == 0)
-		printf("[VM] Potential VM detected!\n");
+		printf("[VM] Potential VM detected (Touches)!\n");
+
+	// NOTE:
+	// This is NOT very accurate but can indicate usage of VM.
+	// I would argue it's worth checking but nothing to rely on ...
+	// ... needs more testing :>)
+	if (TimeCheck())
+		printf("[VM] Potential VM detected (Time Check)!\n");
 }
