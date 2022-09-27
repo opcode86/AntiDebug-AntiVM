@@ -36,4 +36,7 @@ void AntiVM() noexcept
 	// ... needs more testing :>)
 	if (TimeCheck())
 		printf("[VM] Potential VM detected (Time Check)!\n");
+
+	if (PowerCheck())
+		printf("[VM] Potential VM detected (Power Check)!\n");
 }
